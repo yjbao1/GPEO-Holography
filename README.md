@@ -1,2 +1,1 @@
-# GPEO-Holography
-Dual-Layer Metasurface Holography via Gradient-based Progressive-Efficiency Optimization (GPEO)
+This repository contains two parts: a MATLAB benchmark framework and a Python implementation of the GPEO algorithm.
