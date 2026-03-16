@@ -15,13 +15,6 @@ Traditional single-layer holographic algorithms face an inherent trade-off betwe
 > - **MAPS limit [4]**: Efficiency = 29.6%, SC = 0.079
 > - **Our Work (GPEO)**: **Efficiency = 97.0%, SC = 0.013**
 
-## Key Features
-
-- **Accurate Physical Propagation**: GS, DCGS, and AWGS strictly utilize the Rayleigh-Sommerfeld (RS) propagation model (`RS_FFT_s`) to perfectly match near-field/mid-field physical diffraction.
-- **Energy Conservation**: BCGS is implemented via a pure zero-padded FFT model with strict unitary energy conservation to perfectly reproduce the original paper's band-limited methodology.
-- **Dual-Mask Evaluation**: 
-  - `iter_mask`: Constraints are applied uniformly across the central target domain during iterations.
-  - `eval_mask`: Evaluation metrics (Efficiency & SC) are calculated *strictly* over the high-intensity target pattern for absolute objectivity.
 
 ## How to Run
 
